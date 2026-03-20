@@ -38,7 +38,7 @@ const LeadModal: React.FC<LeadModalProps> = ({ isOpen, onClose, initialProduct }
       <div className="bg-white w-full max-w-xl rounded-3xl shadow-[0_32px_64px_-12px_rgba(0,0,0,0.2)] relative overflow-hidden animate-in zoom-in duration-300">
         <div className="px-6 py-4 flex items-center justify-between border-b border-slate-50 bg-white">
           <div className="flex items-center space-x-3">
-            <img src="/logo.png" alt="logo" className="w-10 h-10" />
+            <img src="/kinkan_logo_orange.png" alt="logo" className="w-10 h-10" />
             <div>
               <h2 className="text-lg font-black text-slate-900 leading-none italic">Diagnóstico Cloud</h2>
               <p className="text-[9px] font-black text-orange-400 uppercase tracking-widest mt-0.5">Aceleração Kinkan.cloud</p>

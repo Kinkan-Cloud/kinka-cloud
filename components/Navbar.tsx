@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="transition-transform duration-500 w-12 group-hover:scale-110">
-              <img src="/logo.png" alt="logo" />
+              <img src="/kinkan_logo_orange.png" alt="logo" />
             </div>
             <span className="text-2xl font-black tracking-tighter text-slate-900">KINKAN</span>
           </Link>
@@ -73,7 +73,7 @@ const Navbar: React.FC = () => {
         <div className="fixed inset-0 z-[100] bg-white/80 backdrop-blur-3xl animate-in fade-in duration-500 flex flex-col">
           <div className="px-6 py-6 flex items-center justify-between border-b border-slate-100/50">
             <div className="flex items-center space-x-3 w-24">
-              <img src="/logo.png" alt="logo" />
+              <img src="/kinkan_logo_orange.png" alt="logo" />
               <span className="font-black tracking-tighter text-xl">KINKAN</span>
             </div>
             <button 

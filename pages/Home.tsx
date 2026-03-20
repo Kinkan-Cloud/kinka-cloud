@@ -15,7 +15,7 @@ const Home: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="animate-in fade-in slide-in-from-left duration-1000">
               <div className="inline-flex items-center space-x-2 px-4 py-2 bg-orange-100/50 backdrop-blur-sm text-orange-600 text-[10px] font-black tracking-[0.2em] uppercase mb-8 rounded-lg border border-orange-200/50">
-                <img src="/logo.png" alt="logo" className="w-6 h-6" />
+                <img src="/kinkan_logo_orange.png" alt="logo" className="w-6 h-6" />
                 <span>Software House & Automações</span>
               </div>
               <h1 className="text-5xl md:text-7xl font-black text-slate-900 leading-[0.95] mb-8 italic tracking-tighter">

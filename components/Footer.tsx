@@ -10,15 +10,15 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
-              <img src="/logo.png" alt="logo" className="w-8 h-8" />
+              <img src="/kinkan_logo_orange.png" alt="logo" className="w-8 h-8" />
               <span className="text-xl font-black tracking-tighter text-white">KINKAN</span>
             </div>
             <p className="text-sm leading-relaxed mb-6 text-slate-400">
               Amadurecendo negócios através de inteligência de dados e automações exclusivas. 4 anos entregando tecnologia de ponta no domínio Kinkan.cloud.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="p-2 bg-slate-800 rounded-2xl hover:bg-orange-600 hover:text-white transition-all"><Linkedin size={18} /></a>
-              <a href="#" className="p-2 bg-slate-800 rounded-2xl hover:bg-orange-600 hover:text-white transition-all"><Instagram size={18} /></a>
+              <a href="https://www.linkedin.com/company/kinkancloud/" className="p-2 bg-slate-800 rounded-2xl hover:bg-orange-600 hover:text-white transition-all"><Linkedin size={18} /></a>
+              {/* <a href="#" className="p-2 bg-slate-800 rounded-2xl hover:bg-orange-600 hover:text-white transition-all"><Instagram size={18} /></a> */}
               <a href="mailto:contato@Kinkan.cloud" className="p-2 bg-slate-800 rounded-2xl hover:bg-orange-600 hover:text-white transition-all"><Mail size={18} /></a>
             </div>
           </div>
